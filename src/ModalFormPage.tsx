@@ -13,9 +13,9 @@ const ModalFormPage = () => {
   };
 
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
+    <div style={{ width: '100vw', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <button onClick={handleModal}>
-        폼 모달 열기
+        신청 폼 작성하기
       </button>
 
       <DefaultFormModal modal={formModal} />
